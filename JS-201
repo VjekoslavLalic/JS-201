@@ -1,0 +1,62 @@
+# JS-201
+<html>
+    <head>
+        <h1>Zadatak1</h1>
+
+    </head>
+    
+    <body>
+
+    
+    </body>
+
+    <script>
+    let a = prompt("Unesi prvi broj");
+    let b = prompt("Unesi drugi broj");
+    let c = prompt("Unesi treći broj");
+    let d = prompt("Unesi četvrti broj");
+    let maks = 0;
+    let pom = a;
+if(a>b){
+if(a>c)
+{
+if(a>d){
+    pom = a;
+    maks = pom;
+}
+else{
+    pom = d;
+    maks = pom
+}}
+else{
+if(c>d){
+    pom = c;
+    maks = pom;
+}
+else{
+    pom = d;
+    maks = pom;
+}}}
+else{
+if(b>c){
+if(b>d){
+    pom = b;
+    maks = pom;
+}
+else{
+   pom = d;
+   maks = pom;
+}}
+else{
+if(c>d){
+   pom = c;
+   maks = c;
+}
+else{
+  pom = d;
+  maks = pom;
+}}}
+console.log("Najveći između njih je: " + maks);
+
+    </script> 
+</html>
